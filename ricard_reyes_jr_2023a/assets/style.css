@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* navbar */
+.nav {
+    border: 3px solid #ffffff;
+}
+.nav ul {
+    list-style: none;
+    background: #111111;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.nav a:hover {
+    background: #02577a;
+}
+
+/* Header */
+#header {
+    padding: 0px;
+    border: 3px solid #111111;
+    background-color: #ffffff;
+}
+
+/* logo */
+.logo {
+    text-align: center;
+}
+#logo {
+    width: 600px;
+}
+
+/* skills sections */
+.skill-section {
+    background-color: #111111;
+    border: 3px solid #ffffff;
+}
+
+#skills {
+    text-align: center;
+    color: #ffffff;
+    padding: 30px;
+}
+
+.skill-section {
+    display: flexbox;
+    align-content: center;
+
+}
+.front-end {
+    color: #ffffff;
+    display: flexbox;
+    align-content: center;
+}
+.back-end {
+    color: #ffffff;
+    display: flexbox;
+    align-content: center;
+}
+
+/* Projects */
+.projects {
+    background-color: #ffffff;
+    border: 3px solid #111111;
+    margin: 10px;
+    padding: 20px;
+    color: #01303f;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.projects li {
+    display: block;
+    display: inline-block;
+    text-decoration: none;
+    padding: 25px 20px;
+
+}
+
+/* About Me */
+.about {
+    background-color: #111111;
+    border: 3px solid #ffffff;
+    margin: 20px 20px 40px 20px;
+    padding: 40px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+
+}
+
+.about li {
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+
+}
+
+#portfolio_img {
+  align-items: right;
+  width: 300px;
+
+}
+
+.p-about {
+  font-size: center;
+  width: 300px;
+  text-align: left;
+}
+
+/* Contact Me */
+.contact_form {
+    background-color: #ffffff;
+    border: 3px solid #111111;
+}
+
+/* social */
+.social {
+    background-color: #111111;
+    border: 3px solid #ffffff;
+}
